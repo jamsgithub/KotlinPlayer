@@ -1,0 +1,3 @@
+rootProject.name='Pad'
+include ':app'
+include ':kotlinplayer'

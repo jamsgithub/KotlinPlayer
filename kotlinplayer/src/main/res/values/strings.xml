@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KotlinPlayer</string>
+    <string name="doc_created_time">创建日期:</string>
+    <string name="doc_send_person">传入人:</string>
+    <string name="doc_send_time">传入日期:</string>
+    <string name="doc_collect_time">收藏日期:</string>
+    <string name="doc_no">公文编号:</string>
+    <string name="document_not_wait_do">暂时没有待办数据!</string>
+    <string name="document_remind">提醒:</string>
+</resources>
