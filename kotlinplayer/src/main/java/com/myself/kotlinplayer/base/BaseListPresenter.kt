@@ -11,5 +11,5 @@ package com.myself.kotlinplayer.base
  */
 interface BaseListPresenter {
     fun fetchDatas(curPage: Int)
-    fun destoryView()
+    fun destroyView()
 }

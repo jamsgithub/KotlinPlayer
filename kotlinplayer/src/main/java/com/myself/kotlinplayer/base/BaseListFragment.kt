@@ -53,7 +53,7 @@ abstract class BaseListFragment<RESPONSE,ITEMBEAN, ITEMVIEW:View> : BaseFragment
             }
         })
 
-        adapter.setMyListenerFun {
+        adapter.setItemListenerFun {
             onItemClick(it)
         }
     }
@@ -88,7 +88,7 @@ abstract class BaseListFragment<RESPONSE,ITEMBEAN, ITEMVIEW:View> : BaseFragment
      */
     override fun onDestroyView() {
         super.onDestroyView()
-        presenter.destoryView()
+        presenter.destroyView()
     }
 
     abstract fun getList(response: RESPONSE):List<ITEMBEAN>

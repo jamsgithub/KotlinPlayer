@@ -24,7 +24,7 @@ class HomePresenterImpl(var homeView: BaseView<List<HomeItemBean>>?):HomePresent
     /**
      * 解绑view
      */
-    override fun destoryView(){
+    override fun destroyView(){
         if (homeView == null){
             homeView = null
         }

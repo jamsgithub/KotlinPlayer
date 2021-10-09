@@ -68,7 +68,7 @@ abstract class BaseListAdapter<ITEMBEAN, ITEMVIEW:View>(): RecyclerView.Adapter<
 
     private var listenerFun:((itemBean:ITEMBEAN)->Unit)? = null;
 
-    fun setMyListenerFun(listener:((itemBean: ITEMBEAN)->Unit)?){
+    fun setItemListenerFun(listener:((itemBean: ITEMBEAN)->Unit)?){
         this.listenerFun = listener
     }
 
